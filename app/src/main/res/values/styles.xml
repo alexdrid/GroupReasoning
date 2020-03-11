@@ -1,0 +1,52 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorPrimaryLight</item>
+        <item name="colorControlHighlight">@color/colorHighlight</item>
+
+    </style>
+
+    <style name="TitleAppearance" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="fontFamily">@font/boogaloo</item>
+        <item name="android:textColor">@color/colorTextPrimary</item>
+    </style>
+
+
+
+
+    <style name="FullscreenDialog" parent="Theme.MaterialComponents.Light.Dialog">
+        <!--        <item name="android:textColorSecondary">@android:color/white</item>-->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorPrimaryLight</item>
+        <item name="actionOverflowMenuStyle">@style/OverflowMenu</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowBackground">@android:color/white</item>
+    </style>
+
+
+    <style name="OverflowMenu" parent="Widget.AppCompat.PopupMenu.Overflow">
+        <item name="overlapAnchor">false</item>
+        <item name="android:dropDownVerticalOffset">4dp</item>
+    </style>
+
+    <style name="AppTheme.Slide">
+        <item name="android:windowEnterAnimation">@anim/slide_up_dialog</item>
+        <item name="android:windowExitAnimation">@anim/slide_down_dialog</item>
+    </style>
+
+    <style name="AlertDialog" parent="Theme.MaterialComponents.Light.Dialog">
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="colorPrimary">@color/colorPrimaryLight</item>
+        <item name="materialButtonStyle">@style/dialogButtonStyle</item>
+    </style>
+
+    <style name="dialogButtonStyle" parent="@style/Widget.MaterialComponents.Button.TextButton">
+        <item name="android:textColor">@color/colorPrimaryLight</item>
+    </style>
+
+</resources>

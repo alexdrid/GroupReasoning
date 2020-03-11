@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Group Reasoning</string>
+    <string name="your_name">Your name</string>
+    <string name="button_save">LOG IN</string>
+    <string name="knowledge">Knowledge</string>
+    <string name="logic_solver">Logic Solver</string>
+
+    <string name="rule">Rule</string>
+    <string name="peers">Peers</string>
+    <string name="error_missing_permissions">Missing Permissions</string>
+    <string name="solve">solve</string>
+    <string name="editor_insert_rule_failed">Error with saving the rule</string>
+    <string name="editor_insert_rule_successful">Rule Saved</string>
+    <string name="editor_insert_fact_failed">Error with saving fact</string>
+    <string name="editor_insert_fact_successful">Fact Saved</string>
+    <string name="editor_update_rule_failed">Rule update failed</string>
+    <string name="editor_update_rule_successful">Rule update</string>
+    <string name="editor_update_fact_failed">Fact update failed</string>
+    <string name="editor_update_fact_successful">Fact updated</string>
+    <string name="save">Save</string>
+    <string name="error_insert_variables">Variables were not saved</string>
+    <string name="insert_variables_successful">Variables saved</string>
+    <string name="fact_symbol">Symbol</string>
+    <string name="fact_proposition">Proposition</string>
+    <string name="delete">Delete</string>
+    <string name="symbol">Symbol</string>
+    <string name="proposition">Proposition</string>
+    <string name="none">None</string>
+    <string name="type_your_name_to_log_in">Type your name and log in</string>
+    <string name="add_a_rule">Add a Rule</string>
+
+</resources>

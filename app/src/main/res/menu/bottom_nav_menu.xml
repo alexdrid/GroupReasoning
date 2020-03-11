@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_nearby_devices"
+        android:icon="@drawable/ic_peers_white_24dp"
+        android:title="@string/peers" />
+    <item
+        android:id="@+id/nav_knowledge"
+        android:icon="@drawable/ic_knowledge_base"
+        android:title="@string/knowledge" />
+    <item
+        android:id="@+id/nav_logic_resolver"
+        android:icon="@drawable/ic_logic_solver"
+        android:title="@string/logic_solver" />
+
+</menu>

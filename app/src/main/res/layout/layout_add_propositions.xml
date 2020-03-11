@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <EditText
+        android:id="@+id/symbol_edit"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:layout_weight="1"
+        android:foregroundTint="@color/colorPrimaryAccent"
+        android:hint="@string/symbol"
+        android:imeOptions="actionDone"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/proposition_edit"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:layout_weight="3"
+        android:foregroundTint="@color/colorPrimaryAccent"
+        android:hint="@string/proposition"
+        android:inputType="textMultiLine" />
+
+
+    <ImageButton
+        android:id="@+id/remove_proposition_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:background="@null"
+        android:focusable="true"
+        android:src="@drawable/ic_remove_white_24dp"
+        android:tint="@color/grey" />
+</LinearLayout>
